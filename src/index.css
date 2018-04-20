@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.notecontainer {
+  display: flex;
+}
+
+.notelist {
+  flex-basis: 30%;
+  padding: 1em;
+}
+
+.notelist .list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.noteeditor {
+  flex-grow: 1;
+  padding: 1em;
+}
+
+.noteeditor .editor {
+  width: 100%;
+}
+
+.noteitem {
+  padding: 1em 0.5em;
+  cursor: pointer;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+  margin-top: -1px;
+  margin-left: -1px;
+}
+
+.noteitem:hover {
+  background-color: #61dafb;
+}
